@@ -1,17 +1,23 @@
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Security.Claims;
 using WebBanHang.Models;
+using BC = BCrypt.Net.BCrypt;
 
 namespace WebBanHang.Controllers
 {
     public class HomeController : Controller
     {
 
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly FashionShopDbContext _context;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        public HomeController(FashionShopDbContext context, IHttpContextAccessor httpContextAccessor)
         {
-            _logger = logger;
+            _context = context;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public IActionResult Index()
@@ -20,6 +26,75 @@ namespace WebBanHang.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+        // GET: Login
+        [AllowAnonymous]
+        public IActionResult Login(string? ReturnUrl)
+        {
+            if (_httpContextAccessor.HttpContext.User.Identity.IsAuthenticated)
+            {
+                // Nếu đã đăng nhập thì chuyển đến trang chủ
+                return LocalRedirect(ReturnUrl ?? "/");
+            }
+            else
+            {
+                // Nếu chưa đăng nhập thì chuyển đến trang đăng nhập
+                ViewBag.LienKetChuyenTrang = ReturnUrl ?? "/";
+                return View();
+            }
+        }
+
+        // POST: Login
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([Bind] DangNhap dangNhap)
+        {
+            if (ModelState.IsValid)
+            {
+                var nguoiDung = _context.NguoiDung.Where(r => r.TenDangNhap == dangNhap.TenDangNhap).SingleOrDefault();
+
+                if (nguoiDung == null || !BC.Verify(dangNhap.MatKhau, nguoiDung.MatKhau))
+                {
+                    TempData["ThongBaoLoi"] = "Tài khoản không tồn tại trong hệ thống.";
+                    return View(dangNhap);
+                }
+                else
+                {
+                    var claims = new List<Claim>
+                 {
+                 new Claim("ID", nguoiDung.ID.ToString()),
+                 new Claim(ClaimTypes.Name, nguoiDung.TenDangNhap),
+                 new Claim("HoVaTen", nguoiDung.HoVaTen),
+                 new Claim(ClaimTypes.Role, nguoiDung.Quyen ? "Admin" : "User")
+                 };
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var authProperties = new AuthenticationProperties
+                    {
+                        IsPersistent = dangNhap.DuyTriDangNhap
+                    };
+                    // Đăng nhập hệ thống
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity),
+                   authProperties);
+
+                    return LocalRedirect(dangNhap.LienKetChuyenTrang ?? (nguoiDung.Quyen ? "/Admin" : "/"));
+                }
+            }
+
+            return View(dangNhap);
+        }
+
+        // GET: DangXuat
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Index", "Home", new { Area = "" });
+        }
+
+        // GET: Forbidden
+        public IActionResult Forbidden()
         {
             return View();
         }

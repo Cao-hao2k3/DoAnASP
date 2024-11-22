@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HocTap\\DoAnASP\\WebBanHang\\WebBanHang\\WebBanHang.csproj": {}
+    "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj": {}
   },
   "projects": {
-    "D:\\HocTap\\DoAnASP\\WebBanHang\\WebBanHang\\WebBanHang.csproj": {
+    "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\DoAnASP\\WebBanHang\\WebBanHang\\WebBanHang.csproj",
+        "projectUniqueName": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj",
         "projectName": "WebBanHang",
-        "projectPath": "D:\\HocTap\\DoAnASP\\WebBanHang\\WebBanHang\\WebBanHang.csproj",
+        "projectPath": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\DoAnASP\\WebBanHang\\WebBanHang\\obj\\",
+        "outputPath": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,11 +40,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
               "version": "[8.0.11, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[8.0.11, )"
             },
@@ -65,6 +73,10 @@
             "SlugGenerator": {
               "target": "Package",
               "version": "[2.0.2, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.9, )"
             }
           },
           "imports": [

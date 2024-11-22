@@ -20,3 +20,26 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Fix navigation and cart icon layout */
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center; /* This ensures all items are aligned horizontally */
+}
+
+/* Fix bullet points (if any) for cart icon or user menu */
+.nav-item, .nav-icon {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove margin-right from cart icon and other icons to align them neatly */
+.nav-icon {
+    margin-right: 15px; /* You can adjust this value if needed */
+}
+
+/* Optional: To align the "User" section horizontally with the navbar items */
+.navbar .navbar-nav .nav-item {
+    display: inline-block;
+}

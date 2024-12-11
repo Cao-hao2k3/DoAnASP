@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using WebBanHang.Models;
 using BC = BCrypt.Net.BCrypt;
 
-namespace WebBanHang.Areas.Admin.Controllers
+namespace WebBanHang.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]

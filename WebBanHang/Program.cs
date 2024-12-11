@@ -22,6 +22,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
  });
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options => {
+    options.Cookie.Name = "FashionShop.Session";
+    options.IdleTimeout = TimeSpan.FromMinutes(15);
+});
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -36,6 +44,7 @@ app.UseStaticFiles();
 app.UseAuthentication();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
 app.MapControllerRoute(name: "adminareas", pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");

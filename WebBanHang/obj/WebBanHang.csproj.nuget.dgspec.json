@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj": {}
+    "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\WebBanHang.csproj": {}
   },
   "projects": {
-    "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj": {
+    "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\WebBanHang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj",
+        "projectUniqueName": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\WebBanHang.csproj",
         "projectName": "WebBanHang",
-        "projectPath": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\WebBanHang.csproj",
+        "projectPath": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\WebBanHang.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\",
+        "outputPath": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

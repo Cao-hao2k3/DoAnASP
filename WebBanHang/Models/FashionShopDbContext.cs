@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using WebBanHang.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebBanHang.Models
 {
@@ -13,5 +14,21 @@ namespace WebBanHang.Models
         public DbSet<TinhTrang> TinhTrang { get; set; }
         public DbSet<DatHang> DatHang { get; set; }
         public DbSet<DatHangChiTiet> DatHang_ChiTiet { get; set; }
+
+        public DbSet<GioHang> GioHang { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<LoaiSanPham>().ToTable("LoaiSanPham");
+            modelBuilder.Entity<HangSanXuat>().ToTable("HangSanXuat");
+            modelBuilder.Entity<SanPham>().ToTable("SanPham");
+            modelBuilder.Entity<NguoiDung>().ToTable("NguoiDung");
+            modelBuilder.Entity<TinhTrang>().ToTable("TinhTrang");
+            modelBuilder.Entity<DatHang>().ToTable("DatHang");
+            modelBuilder.Entity<DatHangChiTiet>().ToTable("DatHang_ChiTiet");
+            modelBuilder.Entity<GioHang>().ToTable("GioHang");
+        }
     }
+
+
 }

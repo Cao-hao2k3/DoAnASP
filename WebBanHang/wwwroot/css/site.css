@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -43,3 +43,24 @@ body {
 .navbar .navbar-nav .nav-item {
     display: inline-block;
 }
+
+.button-group {
+    display: flex; /* Hiển thị các nút trên cùng một hàng */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    gap: 10px; /* Khoảng cách giữa các nút */
+}
+
+    .button-group .btn {
+        flex: 1; /* Đảm bảo nút có cùng chiều rộng */
+        text-align: center; /* Căn giữa nội dung bên trong nút */
+        height: 40px; /* Chiều cao cố định */
+        width: 40px; /* Chiều rộng cố định */
+        line-height: 40px; /* Căn chỉnh icon theo chiều dọc */
+        padding: 0; /* Xóa padding mặc định */
+        font-size: 16px; /* Kích thước icon */
+    }
+
+        .button-group .btn i {
+            display: inline-block;
+            vertical-align: middle; /* Căn chỉnh icon bên trong nút */
+        }

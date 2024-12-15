@@ -175,6 +175,7 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNhblBoYW1cSW5kZXgu
 build_metadata.AdditionalFiles.CssScope = 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/DatHang/DatHangThanhCong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0SGFuZ1xEYXRIYW5nVGhhbmhDb25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -183,6 +184,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0SGFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 [D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/GioHang/GioHangRong.cshtml]

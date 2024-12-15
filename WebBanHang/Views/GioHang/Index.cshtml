@@ -6,6 +6,7 @@
         <thead class="bg-primary text-white">
             <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <th class="text-center">Hình ảnh</th>
                 <th>Tên sản phẩm</th>
                 <th class="text-right">Giá</th>
@@ -14,6 +15,8 @@
                 <th class="text-right">Tổng tiền</th>
                 <th class="text-center">Xóa</th>
 =======
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
                 <th scope="col" class="text-center">Hình ảnh</th>
                 <th scope="col">Tên sản phẩm</th>
                 <th scope="col" class="text-right">Giá</th>
@@ -21,6 +24,9 @@
                 <th scope="col" class="text-center">Kích cỡ</th>
                 <th scope="col" class="text-right">Tổng tiền</th>
                 <th scope="col" class="text-center">Xóa</th>
+<<<<<<< HEAD
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
             </tr>
         </thead>
@@ -31,6 +37,10 @@
                 {
                     <tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        <!-- Hình ảnh -->
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
                         <!-- Hình ảnh -->
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
@@ -41,6 +51,7 @@
                                  style="width: 100%; height: 200px; object-fit: cover;" />
                         </td>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <td class="align-middle">@item.SanPham.TenSanPham</td>
                         <td class="text-right align-middle">@item.SanPham.DonGia.ToString("N0") ₫</td>
                         <td class="text-center align-middle">@item.SoLuongTrongGio</td>
@@ -49,6 +60,8 @@
                         <td class="text-center align-middle">
                             <form action="/GioHang/XoaSanPham" method="POST">
 =======
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
                         <!-- Tên sản phẩm -->
                         <td class="align-middle">@item.SanPham.TenSanPham</td>
                         <!-- Giá -->
@@ -62,6 +75,9 @@
                         <!-- Xóa -->
                         <td class="text-center align-middle">
                             <form action="/GioHang/XoaSanPham" method="POST" onsubmit="return confirm('Bạn chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng?');">
+<<<<<<< HEAD
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
                                 <input type="hidden" name="SanPhamID" value="@item.SanPhamID" />
                                 <input type="hidden" name="TenDangNhap" value="@User.Identity.Name" />
@@ -74,8 +90,11 @@
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <!-- Tổng cộng -->
 =======
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
                 <!-- Hiển thị tổng số lượng sản phẩm -->
                 <tr class="bg-light">
                     <td colspan="5" class="text-right font-weight-bold">Tổng số lượng:</td>
@@ -83,6 +102,9 @@
                 </tr>
 
                 <!-- Hiển thị tổng tiền -->
+<<<<<<< HEAD
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
                 <tr class="bg-light">
                     <td colspan="5" class="text-right font-weight-bold">Tổng tiền:</td>
@@ -92,6 +114,7 @@
                 <!-- Nút thanh toán -->
                 <tr>
                     <td colspan="7" class="text-center py-4">
+<<<<<<< HEAD
 <<<<<<< HEAD
                         <form action="/DatHang/Index" method="POST">
                             @foreach (var item in Model)
@@ -103,6 +126,10 @@
                                 <input type="hidden" name="DonGias" value="@item.SanPham.DonGia" />
                             }
                             <button type="submit" class="btn btn-success btn-lg px-5">Đặt hàng</button>
+=======
+                        <form action="/ThanhToan" method="GET">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Thanh toán</button>
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
                         <form action="/ThanhToan" method="GET">
                             <button type="submit" class="btn btn-success btn-lg px-5">Thanh toán</button>

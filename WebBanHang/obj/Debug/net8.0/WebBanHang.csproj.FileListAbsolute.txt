@@ -1400,6 +1400,7 @@ D:\HocTap\DoAnASP\DoAnASP\WebBanHang\obj\Debug\net8.0\WebBanHang.pdb
 D:\HocTap\DoAnASP\DoAnASP\WebBanHang\obj\Debug\net8.0\WebBanHang.genruntimeconfig.cache
 D:\HocTap\DoAnASP\DoAnASP\WebBanHang\obj\Debug\net8.0\ref\WebBanHang.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\HocTap\BackUp\DoAnASP\WebBanHang\bin\Debug\net8.0\appsettings.Development.json
 D:\HocTap\BackUp\DoAnASP\WebBanHang\bin\Debug\net8.0\appsettings.json
 D:\HocTap\BackUp\DoAnASP\WebBanHang\bin\Debug\net8.0\libman.json
@@ -1965,5 +1966,7 @@ D:\HocTap\BackUp\DoAnASP\WebBanHang\obj\Debug\net8.0\refint\WebBanHang.dll
 D:\HocTap\BackUp\DoAnASP\WebBanHang\obj\Debug\net8.0\WebBanHang.pdb
 D:\HocTap\BackUp\DoAnASP\WebBanHang\obj\Debug\net8.0\WebBanHang.genruntimeconfig.cache
 D:\HocTap\BackUp\DoAnASP\WebBanHang\obj\Debug\net8.0\ref\WebBanHang.dll
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69

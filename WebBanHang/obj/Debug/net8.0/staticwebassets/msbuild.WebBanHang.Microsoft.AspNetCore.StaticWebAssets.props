@@ -3025,6 +3025,7 @@
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ao-ba-lo.jpg))</OriginalItemSpec>
     </StaticWebAsset>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ao-nike.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>WebBanHang</SourceId>
@@ -3041,6 +3042,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ao-nike.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ao-sieu-xayda.jpg))">

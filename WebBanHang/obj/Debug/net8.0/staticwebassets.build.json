@@ -1,7 +1,11 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "BFmnPKa0H6rYFCTVDPgUbkC439Iy/+RpUEXbrlnBNZ0=",
+=======
+  "Hash": "UpWiDEDDCZcrOTT2fopBG5JKtHcC9zd9NKpoBR1cFls=",
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
   "Hash": "UpWiDEDDCZcrOTT2fopBG5JKtHcC9zd9NKpoBR1cFls=",
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
@@ -3689,6 +3693,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-nike.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
@@ -3708,6 +3713,8 @@
       "OriginalItemSpec": "wwwroot\\uploads\\ao-nike.jpg"
     },
     {
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-sieu-xayda.jpg",

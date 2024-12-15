@@ -55,12 +55,15 @@ namespace WebBanHang.Controllers
                                   .Where(g => g.TenDangNhap == User.Identity.Name)  // Lọc theo tên đăng nhập của người dùng
                                   .ToList();
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Kiểm tra nếu giỏ hàng rỗng
             if (gioHang == null || !gioHang.Any())
             {
                 // Chuyển hướng đến trang Giỏ hàng rỗng
                 return View("GioHangRong");
             }
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 

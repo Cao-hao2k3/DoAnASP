@@ -761,10 +761,13 @@
       "PackagePath": "staticwebassets\\uploads\\ao-ba-lo.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-nike.jpg",
       "PackagePath": "staticwebassets\\uploads\\ao-nike.jpg"
     },
     {
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-sieu-xayda.jpg",
       "PackagePath": "staticwebassets\\uploads\\ao-sieu-xayda.jpg"
     },

@@ -7,7 +7,7 @@
         public int SanPhamID { get; set; }
         public short SoLuong { get; set; }
         public int DonGia { get; set; }
-
+        public string KichCo { get; set; }
         public DatHang? DatHang { get; set; }
         public SanPham? SanPham { get; set; }
     }

@@ -1,8 +1,13 @@
-﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor _httpContextAccessor;
+﻿ @inject Microsoft.AspNetCore.Http.IHttpContextAccessor _httpContextAccessor;
+
 @{
     var user = _httpContextAccessor.HttpContext.User;
+    var isAuthenticated = user.Identity.IsAuthenticated;
+    var isAdmin = user.IsInRole("Admin");
+    var isUser = user.IsInRole("User");
+    var email = "caohao2003@gmail.com";
+    var phone = "0587171424";
 }
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +31,7 @@
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/assets/css/fontawesome.min.css">
 </head>
 <body>
     <header>
@@ -36,12 +41,12 @@
                 <div class="w-100 d-flex justify-content-between">
                     <div>
                         <i class="fa fa-envelope mx-2"></i>
-                        <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">caohao2003@gmail.com</a>
+                        <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:@email">@email</a>
                         <i class="fa fa-phone mx-2"></i>
-                        <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">0587171424</a>
+                        <a class="navbar-sm-brand text-light text-decoration-none" href="tel:@phone">@phone</a>
                     </div>
                     <div>
-                        <a class="text-light" href="https://www.facebook.com/hao.nhut.7946/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                        <a class="text-light" href="https://www.facebook.com/hao.nhut.7946/" target="_blank"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
                         <a class="text-light" href="https://www.instagram.com/hao.nhut.7946/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
                         <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
                         <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
@@ -50,11 +55,10 @@
             </div>
         </nav>
         <!-- Close Top Nav -->
-
         <!-- Header -->
         <nav class="navbar navbar-expand-lg navbar-light shadow">
             <div class="container d-flex justify-content-between align-items-center">
-                <a style="white-space: nowrap" class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                <a class="navbar-brand text-success logo h1 align-self-center" href="/">
                     Zay
                 </a>
 
@@ -69,49 +73,45 @@
                                 <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="~/about.html">Giới Thiệu</a>
+                                <a class="nav-link" href="/about.html">Giới Thiệu</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link">Sản phẩm</a>
+                                <a class="nav-link" asp-area="" asp-controller="LoadSanPham" asp-action="Index">Sản phẩm</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Liên hệ</a>
+                                <a class="nav-link" href="/contact.html">Liên hệ</a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- Update the User Info & Cart section -->
                     <div class="navbar align-self-center d-flex">
-                        <!-- Search -->
-                        <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                            <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                        </a>
-
-                        <!-- Cart -->
-                        <a class="nav-icon position-relative text-decoration-none" href="#">
-                            <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i> Giỏ hàng
-                        </a>
-
-                        <!-- User Info -->
-                        @if (!user.Identity.IsAuthenticated)
+                        @if (!isAuthenticated)
                         {
+                             <a class="nav-icon position-relative text-decoration-none" asp-area="" asp-controller="Home" asp-action="Login">
+                                <i class="fa fa-fw fa-cart-arrow-down text-dark mr-3"></i> Giỏ hàng của tôi
+                            </a>
+
                             <a class="nav-icon position-relative text-decoration-none" asp-area="" asp-controller="Home" asp-action="Login">
                                 <i class="fa fa-fw fa-user text-dark mr-3"></i> Đăng nhập
                             </a>
                         }
-                        else
+                        else if (isAdmin)
                         {
+                            <a class="nav-icon position-relative text-decoration-none" asp-area="Admin" asp-controller="Home" asp-action="Index">
+                                <i class="fa fa-fw fa-tools text-dark mr-3"></i> Quản trị
+                            </a>
+                        }
+                        else if (isUser)
+                        {
+                            <a class="nav-icon position-relative text-decoration-none" asp-area="" asp-controller="GioHang" asp-action="Index">
+                                <i class="fa fa-fw fa-cart-arrow-down text-dark mr-3"></i> Giỏ hàng của tôi
+                            </a>
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     @user.Claims.FirstOrDefault(c => c.Type == "HoVaTen")?.Value
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li>
-                                        <a class="dropdown-item" asp-area="" asp-controller="KhachHang" asp-action="DonHangCuaToi">
-                                            <i class="fa-light fa-fw fa-file-chart-pie"></i> Đơn hàng của tôi
-                                        </a>
-                                    </li>
                                     <li>
                                         <a class="dropdown-item" asp-area="" asp-controller="KhachHang" asp-action="DoiMatKhau">
                                             Đổi mật khẩu
@@ -125,15 +125,6 @@
                                     </li>
                                 </ul>
                             </li>
-
-                            @if (_httpContextAccessor.HttpContext.User.IsInRole("Admin"))
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link" asp-area="Admin" asp-controller="Home" asp-action="Index">
-                                        <i class="fa-light fa-fw fa-gear"></i>
-                                    </a>
-                                </li>
-                            }
                         }
                     </div>
                 </div>
@@ -153,34 +144,22 @@
     <footer class="bg-dark" id="tempaltemo_footer">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            197 Long Xuyên An Giang
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">0587171424</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">caonhuthao2003@gmail.com</a>
-                        </li>
+                        <li><i class="fas fa-map-marker-alt fa-fw"></i> 197 Long Xuyên An Giang</li>
+                        <li><i class="fa fa-phone fa-fw"></i> <a class="text-decoration-none" href="tel:@phone">@phone</a></li>
+                        <li><i class="fa fa-envelope fa-fw"></i> <a class="text-decoration-none" href="mailto:@email">@email</a></li>
                     </ul>
                 </div>
-
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Sản phẩm</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="#">Quần áo</a></li>
                         <li><a class="text-decoration-none" href="#">Giày</a></li>
-                        <li><a class="text-decoration-none" href="#"></a>Sản phẩm khác</li>
+                        <li><a class="text-decoration-none" href="#">Sản phẩm khác</a></li>
                     </ul>
                 </div>
-
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Thông tin thêm</h2>
                     <ul class="list-unstyled text-light footer-link-list">
@@ -191,36 +170,6 @@
                         <li><a class="text-decoration-none" href="#">Contact</a></li>
                     </ul>
                 </div>
-
-            </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
-                    </div>
-                </div>
             </div>
         </div>
 
@@ -228,15 +177,11 @@
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name
-                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                        </p>
+                        <p class="text-left text-light">Copyright &copy; 2021 Company Name | Designed by <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
                     </div>
                 </div>
             </div>
         </div>
-
     </footer>
     <!-- End Footer -->
 

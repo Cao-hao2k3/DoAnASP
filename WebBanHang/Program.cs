@@ -13,7 +13,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
  .AddCookie(options =>
  {
-     options.Cookie.Name = "ITShop.Cookie";
+     options.Cookie.Name = "FashionShop.Cookie";
      options.ExpireTimeSpan = TimeSpan.FromMinutes(15);
      options.SlidingExpiration = true;
      options.LoginPath = "/Home/Login";
@@ -21,6 +21,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
      options.AccessDeniedPath = "/Home/Forbidden";
  });
 builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options => {
+    options.Cookie.Name = "FashionShop.Session";
+    options.IdleTimeout = TimeSpan.FromMinutes(15);
+});
+
+
 
 var app = builder.Build();
 
@@ -36,6 +44,7 @@ app.UseStaticFiles();
 app.UseAuthentication();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
 app.MapControllerRoute(name: "adminareas", pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");

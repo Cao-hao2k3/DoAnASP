@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebBanHang.Migrations
 {
     /// <inheritdoc />
-    public partial class FashionShopCSDL : Migration
+    public partial class CSDL1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -45,7 +45,7 @@ namespace WebBanHang.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     HoVaTen = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    DienThoai = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    DienThoai = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: true),
                     DiaChi = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     TenDangNhap = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     MatKhau = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
@@ -80,7 +80,7 @@ namespace WebBanHang.Migrations
                     TenSanPham = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     DonGia = table.Column<int>(type: "int", nullable: false),
                     SoLuong = table.Column<int>(type: "int", nullable: false),
-                    KichCo = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: true),
+                    KichCo = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     HinhAnh = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
                     MoTa = table.Column<string>(type: "ntext", nullable: true)
                 },
@@ -109,7 +109,7 @@ namespace WebBanHang.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     NguoiDungID = table.Column<int>(type: "int", nullable: false),
                     TinhTrangID = table.Column<int>(type: "int", nullable: false),
-                    DienThoaiGiaoHang = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    DienThoaiGiaoHang = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
                     DiaChiGiaoHang = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     NgayDatHang = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -126,6 +126,30 @@ namespace WebBanHang.Migrations
                         name: "FK_DatHang_TinhTrang_TinhTrangID",
                         column: x => x.TinhTrangID,
                         principalTable: "TinhTrang",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "GioHang",
+                columns: table => new
+                {
+                    ID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    TenDangNhap = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    SanPhamID = table.Column<int>(type: "int", nullable: false),
+                    SoLuongSanPham = table.Column<int>(type: "int", nullable: false),
+                    SoLuongTrongGio = table.Column<int>(type: "int", nullable: false),
+                    KichCo = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
+                    ThoiGian = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_GioHang", x => x.ID);
+                    table.ForeignKey(
+                        name: "FK_GioHang_SanPham_SanPhamID",
+                        column: x => x.SanPhamID,
+                        principalTable: "SanPham",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -179,6 +203,11 @@ namespace WebBanHang.Migrations
                 column: "SanPhamID");
 
             migrationBuilder.CreateIndex(
+                name: "IX_GioHang_SanPhamID",
+                table: "GioHang",
+                column: "SanPhamID");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_SanPham_HangSanXuatID",
                 table: "SanPham",
                 column: "HangSanXuatID");
@@ -194,6 +223,9 @@ namespace WebBanHang.Migrations
         {
             migrationBuilder.DropTable(
                 name: "DatHang_ChiTiet");
+
+            migrationBuilder.DropTable(
+                name: "GioHang");
 
             migrationBuilder.DropTable(
                 name: "DatHang");

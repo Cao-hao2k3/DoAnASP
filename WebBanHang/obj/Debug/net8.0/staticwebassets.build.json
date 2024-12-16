@@ -2,6 +2,7 @@
   "Version": 1,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "BFmnPKa0H6rYFCTVDPgUbkC439Iy/+RpUEXbrlnBNZ0=",
 =======
   "Hash": "UpWiDEDDCZcrOTT2fopBG5JKtHcC9zd9NKpoBR1cFls=",
@@ -9,6 +10,9 @@
 =======
   "Hash": "UpWiDEDDCZcrOTT2fopBG5JKtHcC9zd9NKpoBR1cFls=",
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+  "Hash": "Cd9dAwU5WYjqLcqPpO52lZZqpz1Xs0zNbEXOf9DTyJQ=",
+>>>>>>> c0fb83d (tam xong user)
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -880,10 +884,74 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_10.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_01.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+=======
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\sanphamnoibat1.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/sanphamnoibat1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\sanphamnoibat1.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\SanPhamNoiBat2.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/SanPhamNoiBat2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\SanPhamNoiBat2.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\SanPhamNoiBat3.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/SanPhamNoiBat3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\SanPhamNoiBat3.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_01.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+>>>>>>> c0fb83d (tam xong user)
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_01.jpg",
       "AssetKind": "All",
@@ -1089,10 +1157,74 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_11.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+=======
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu1.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/TrangChu1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\TrangChu1.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu2.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/TrangChu2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\TrangChu2.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu3.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/TrangChu3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\TrangChu3.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+>>>>>>> c0fb83d (tam xong user)
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3673,11 +3805,37 @@
       "OriginalItemSpec": "wwwroot\\uploads\\688015.jpg"
     },
     {
+<<<<<<< HEAD
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-ba-lo.jpg",
+=======
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\anh.png",
+>>>>>>> c0fb83d (tam xong user)
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+<<<<<<< HEAD
+=======
+      "RelativePath": "uploads/anh.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\anh.png"
+    },
+    {
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-ba-lo.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
+>>>>>>> c0fb83d (tam xong user)
       "RelativePath": "uploads/ao-ba-lo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3694,6 +3852,9 @@
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-nike.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
@@ -3713,10 +3874,13 @@
       "OriginalItemSpec": "wwwroot\\uploads\\ao-nike.jpg"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-sieu-xayda.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",

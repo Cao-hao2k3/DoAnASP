@@ -56,16 +56,22 @@ namespace WebBanHang.Controllers
                                   .ToList();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
             // Kiểm tra nếu giỏ hàng rỗng
             if (gioHang == null || !gioHang.Any())
             {
                 // Chuyển hướng đến trang Giỏ hàng rỗng
                 return View("GioHangRong");
             }
+<<<<<<< HEAD
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
 
             return View(gioHang);
         }

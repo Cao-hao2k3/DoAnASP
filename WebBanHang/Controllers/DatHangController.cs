@@ -96,10 +96,29 @@ namespace WebBanHang.Controllers
             // Xử lý thông tin người dùng (nếu chọn nhập thông tin mới)
             if (userInfoOption == "custom")
             {
+<<<<<<< HEAD
                 hoVaTen = hoVaTen ?? nguoiDung.HoVaTen;
                 email = email ?? nguoiDung.Email;
                 dienThoai = dienThoai ?? nguoiDung.DienThoai;
                 diaChi = diaChi ?? nguoiDung.DiaChi;
+=======
+                // Cập nhật thông tin người dùng với các giá trị từ form nhập
+                nguoiDung.HoVaTen = hoVaTen ?? nguoiDung.HoVaTen;
+                nguoiDung.Email = email ?? nguoiDung.Email;
+                nguoiDung.DienThoai = dienThoai ?? nguoiDung.DienThoai;
+                nguoiDung.DiaChi = diaChi ?? nguoiDung.DiaChi;
+
+                // Lưu lại thông tin người dùng đã được cập nhật
+                _context.SaveChanges();
+            }
+            else
+            {
+                // Nếu không chọn "custom", sử dụng thông tin mặc định của người dùng
+                hoVaTen = nguoiDung.HoVaTen;
+                email = nguoiDung.Email;
+                dienThoai = nguoiDung.DienThoai;
+                diaChi = nguoiDung.DiaChi;
+>>>>>>> c0fb83d (tam xong user)
             }
 
             // Tạo bản ghi đặt hàng mới
@@ -137,11 +156,32 @@ namespace WebBanHang.Controllers
             // Lưu các chi tiết đơn hàng vào cơ sở dữ liệu
             _context.SaveChanges();
 
+<<<<<<< HEAD
             // Hiển thị thông báo thành công và chuyển hướng về trang chủ hoặc trang xác nhận
             TempData["ThongBaoThanhCong"] = "Đặt hàng thành công!";
             return RedirectToAction("Index", "Home");
         }
 
+=======
+            // Xóa toàn bộ sản phẩm trong giỏ hàng của người dùng sau khi đặt hàng thành công
+            var gioHang = _context.GioHang.Where(g => g.TenDangNhap == User.Identity.Name).ToList();
+            if (gioHang.Any())
+            {
+                _context.GioHang.RemoveRange(gioHang);
+                _context.SaveChanges();
+            }
+
+            // Hiển thị thông báo thành công và chuyển hướng về view dathangthanhcong ở controller Dathang
+            TempData["ThongBaoThanhCong"] = "Đặt hàng thành công!";
+            return RedirectToAction("DathangThanhCong", "Dathang");
+        }
+
+
+        public ActionResult DathangThanhCong()
+        {
+            return View(); // Đây sẽ trả về view dathangthanhcong.cshtml
+        }
+>>>>>>> c0fb83d (tam xong user)
     }
 
     // ViewModel để hiển thị dữ liệu

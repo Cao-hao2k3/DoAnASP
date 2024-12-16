@@ -45,6 +45,29 @@
       "PackagePath": "staticwebassets\\assets\\css\\templatemo.min.css"
     },
     {
+<<<<<<< HEAD
+=======
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\SanPhamNoiBat2.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\SanPhamNoiBat2.webp"
+    },
+    {
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\SanPhamNoiBat3.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\SanPhamNoiBat3.webp"
+    },
+    {
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu1.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\TrangChu1.webp"
+    },
+    {
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu2.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\TrangChu2.webp"
+    },
+    {
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu3.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\TrangChu3.webp"
+    },
+    {
+>>>>>>> c0fb83d (tam xong user)
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\about-hero.svg",
       "PackagePath": "staticwebassets\\assets\\img\\about-hero.svg"
     },
@@ -169,6 +192,13 @@
       "PackagePath": "staticwebassets\\assets\\img\\product_single_10.jpg"
     },
     {
+<<<<<<< HEAD
+=======
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\sanphamnoibat1.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\sanphamnoibat1.webp"
+    },
+    {
+>>>>>>> c0fb83d (tam xong user)
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_01.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\shop_01.jpg"
     },
@@ -757,20 +787,33 @@
       "PackagePath": "staticwebassets\\uploads\\688015.jpg"
     },
     {
+<<<<<<< HEAD
+=======
+      "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\anh.png",
+      "PackagePath": "staticwebassets\\uploads\\anh.png"
+    },
+    {
+>>>>>>> c0fb83d (tam xong user)
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-ba-lo.jpg",
       "PackagePath": "staticwebassets\\uploads\\ao-ba-lo.jpg"
     },
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-nike.jpg",
       "PackagePath": "staticwebassets\\uploads\\ao-nike.jpg"
     },
     {
+<<<<<<< HEAD
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
       "Id": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-sieu-xayda.jpg",
       "PackagePath": "staticwebassets\\uploads\\ao-sieu-xayda.jpg"
     },

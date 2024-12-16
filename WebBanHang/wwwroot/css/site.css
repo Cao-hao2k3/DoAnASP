@@ -66,6 +66,7 @@ body {
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -73,3 +74,18 @@ body {
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+
+
+/* Đảm bảo dropdown con xuất hiện khi hover */
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%; /* Hiển thị menu con bên cạnh */
+    margin-top: 0;
+}
+
+>>>>>>> c0fb83d (tam xong user)

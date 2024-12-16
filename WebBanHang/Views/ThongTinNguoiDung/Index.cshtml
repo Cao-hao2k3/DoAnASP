@@ -1,0 +1,42 @@
+﻿@model WebBanHang.Models.NguoiDung
+
+<h2 class="text-center mb-4">Thông Tin Người Dùng</h2>
+
+<table class="table table-striped table-bordered table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>Thông Tin</th>
+            <th>Chi Tiết</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Mã Người Dùng:</strong></td>
+            <td>@Model.ID</td>
+        </tr>
+        <tr>
+            <td><strong>Họ và tên:</strong></td>
+            <td>@Model.HoVaTen</td>
+        </tr>
+        <tr>
+            <td><strong>Email:</strong></td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td><strong>Điện thoại:</strong></td>
+            <td>@Model.DienThoai</td>
+        </tr>
+        <tr>
+            <td><strong>Địa chỉ:</strong></td>
+            <td>@Model.DiaChi</td>
+        </tr>
+        <tr>
+            <td><strong>Tên đăng nhập:</strong></td>
+            <td>@Model.TenDangNhap</td>
+        </tr>
+        <tr>
+            <td><strong>Quyền hạn:</strong></td>
+            <td>@(Model.Quyen ? "Quản trị viên" : "Người dùng")</td>
+        </tr>
+    </tbody>
+</table>

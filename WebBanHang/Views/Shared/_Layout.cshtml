@@ -32,6 +32,11 @@
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
     <link rel="stylesheet" href="~/assets/css/fontawesome.min.css">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+>>>>>>> c0fb83d (tam xong user)
 </head>
 <body>
     <header>
@@ -79,7 +84,11 @@
                                 <a class="nav-link" asp-area="" asp-controller="LoadSanPham" asp-action="Index">Sản phẩm</a>
                             </li>
                             <li class="nav-item">
+<<<<<<< HEAD
                                 <a class="nav-link" href="/contact.html">Liên hệ</a>
+=======
+                                <a class="nav-link" asp-area="" asp-controller="KetNoi" asp-action="Index">Liên hệ</a>
+>>>>>>> c0fb83d (tam xong user)
                             </li>
                         </ul>
                     </div>
@@ -109,10 +118,23 @@
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    @user.Claims.FirstOrDefault(c => c.Type == "HoVaTen")?.Value
+                                    <i class="fas fa-user"></i> @user.Claims.FirstOrDefault(c => c.Type == "HoVaTen")?.Value
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li>
+<<<<<<< HEAD
+=======
+                                        <a class="dropdown-item" asp-area="" asp-controller="ThongTinNguoiDung" asp-action="Index">
+                                            Thông tin tài khoản
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-controller="ThongTinMuaHang" asp-action="Index">
+                                            Thông tin mua hàng
+                                        </a>
+                                    </li>
+                                    <li>
+>>>>>>> c0fb83d (tam xong user)
                                         <a class="dropdown-item" asp-area="" asp-controller="KhachHang" asp-action="DoiMatKhau">
                                             Đổi mật khẩu
                                         </a>
@@ -163,11 +185,9 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Thông tin thêm</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
+                        <li><a class="text-decoration-none" href="#">Trang chủ</a></li>
+                        <li><a class="text-decoration-none" href="#">Thông tin liên hệ</a></li>
+                        <li><a class="text-decoration-none" href="#">Địa chỉ </a></li>
                     </ul>
                 </div>
             </div>

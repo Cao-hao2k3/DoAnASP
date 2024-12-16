@@ -7,6 +7,9 @@
             <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
                 <th class="text-center">Hình ảnh</th>
                 <th>Tên sản phẩm</th>
                 <th class="text-right">Giá</th>
@@ -14,6 +17,7 @@
                 <th class="text-center">Kích cỡ</th>
                 <th class="text-right">Tổng tiền</th>
                 <th class="text-center">Xóa</th>
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
@@ -28,6 +32,8 @@
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
             </tr>
         </thead>
         <tbody>
@@ -38,12 +44,15 @@
                     <tr>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         <!-- Hình ảnh -->
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
                         <!-- Hình ảnh -->
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
                         <td class="text-center align-middle">
                             <img src="@Url.Content("~/uploads/" + item.SanPham.HinhAnh)"
                                  alt="@item.SanPham.TenSanPham"
@@ -52,6 +61,9 @@
                         </td>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
                         <td class="align-middle">@item.SanPham.TenSanPham</td>
                         <td class="text-right align-middle">@item.SanPham.DonGia.ToString("N0") ₫</td>
                         <td class="text-center align-middle">@item.SoLuongTrongGio</td>
@@ -59,6 +71,7 @@
                         <td class="text-right align-middle">@item.TongTien.ToString("N0") ₫</td>
                         <td class="text-center align-middle">
                             <form action="/GioHang/XoaSanPham" method="POST">
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
@@ -79,6 +92,8 @@
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
                                 <input type="hidden" name="SanPhamID" value="@item.SanPhamID" />
                                 <input type="hidden" name="TenDangNhap" value="@User.Identity.Name" />
                                 <button type="submit" class="btn btn-danger btn-sm">
@@ -89,6 +104,7 @@
                     </tr>
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 <!-- Tổng cộng -->
@@ -106,6 +122,9 @@
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
 =======
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+                <!-- Tổng cộng -->
+>>>>>>> c0fb83d (tam xong user)
                 <tr class="bg-light">
                     <td colspan="5" class="text-right font-weight-bold">Tổng tiền:</td>
                     <td colspan="2" class="text-right font-weight-bold">@Model.Sum(item => item.TongTien).ToString("N0") ₫</td>
@@ -116,6 +135,9 @@
                     <td colspan="7" class="text-center py-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
                         <form action="/DatHang/Index" method="POST">
                             @foreach (var item in Model)
                             {
@@ -126,6 +148,7 @@
                                 <input type="hidden" name="DonGias" value="@item.SanPham.DonGia" />
                             }
                             <button type="submit" class="btn btn-success btn-lg px-5">Đặt hàng</button>
+<<<<<<< HEAD
 =======
                         <form action="/ThanhToan" method="GET">
                             <button type="submit" class="btn btn-success btn-lg px-5">Thanh toán</button>
@@ -134,6 +157,8 @@
                         <form action="/ThanhToan" method="GET">
                             <button type="submit" class="btn btn-success btn-lg px-5">Thanh toán</button>
 >>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
                         </form>
                     </td>
                 </tr>

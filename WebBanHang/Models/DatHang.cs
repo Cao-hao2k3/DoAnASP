@@ -40,9 +40,17 @@
                     [DisplayName("Ngày đặt hàng")]
                     [Required(ErrorMessage = "Ngày đặt hàng không được bỏ trống.")]
                     [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = false)]
+<<<<<<< HEAD
                     public int PhuongThucThanhToan { get; set; } // 1: COD, 2: Thẻ, 3: Trực tuyến
                     public DateTime NgayDatHang { get; set; }
 
+=======
+                    
+                    public DateTime NgayDatHang { get; set; }
+
+                     [DisplayName("Phương thức thanh toán")]
+                    public int PhuongThucThanhToan { get; set; } // 1: COD, 2: Thẻ, 3: Trực tuyến
+>>>>>>> c0fb83d (tam xong user)
 
                     public NguoiDung? NguoiDung { get; set; }
                     public TinhTrang? TinhTrang { get; set; }

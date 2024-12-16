@@ -83,6 +83,14 @@ namespace WebBanHang.Controllers
                         new ClaimsPrincipal(claimsIdentity),
                         authProperties);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                     // Lưu thông tin vào session
                     HttpContext.Session.SetString("Username", nguoiDung.TenDangNhap);
                     HttpContext.Session.SetString("UserID", nguoiDung.ID.ToString());  // Lưu ID người dùng vào session
@@ -90,6 +98,20 @@ namespace WebBanHang.Controllers
                     HttpContext.Session.SetString("Email", nguoiDung.Email); // Lưu Email vào session
                     HttpContext.Session.SetString("DienThoai", nguoiDung.DienThoai); // Lưu Điện thoại vào session
                     HttpContext.Session.SetString("DiaChi", nguoiDung.DiaChi); // Lưu Địa chỉ vào session
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                    // Lưu tên đăng nhập vào session
+                    HttpContext.Session.SetString("Username", nguoiDung.TenDangNhap);
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+                    // Lưu tên đăng nhập vào session
+                    HttpContext.Session.SetString("Username", nguoiDung.TenDangNhap);
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
 
                     // Điều hướng dựa trên quyền của người dùng
                     if (nguoiDung.Quyen) // Nếu quyền là Admin
@@ -107,7 +129,21 @@ namespace WebBanHang.Controllers
         }
 
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
         // GET: DangXuat
         public async Task<IActionResult> Logout()
         {

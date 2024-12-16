@@ -54,12 +54,30 @@ namespace WebBanHang.Controllers
                                   .Include(g => g.SanPham)  // Include SanPham để có thể truy cập thông tin sản phẩm
                                   .Where(g => g.TenDangNhap == User.Identity.Name)  // Lọc theo tên đăng nhập của người dùng
                                   .ToList();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
             // Kiểm tra nếu giỏ hàng rỗng
             if (gioHang == null || !gioHang.Any())
             {
                 // Chuyển hướng đến trang Giỏ hàng rỗng
                 return View("GioHangRong");
             }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
 
             return View(gioHang);
         }

@@ -1,6 +1,22 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "Cd9dAwU5WYjqLcqPpO52lZZqpz1Xs0zNbEXOf9DTyJQ=",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+  "Hash": "BFmnPKa0H6rYFCTVDPgUbkC439Iy/+RpUEXbrlnBNZ0=",
+=======
+  "Hash": "UpWiDEDDCZcrOTT2fopBG5JKtHcC9zd9NKpoBR1cFls=",
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+  "Hash": "UpWiDEDDCZcrOTT2fopBG5JKtHcC9zd9NKpoBR1cFls=",
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+  "Hash": "Cd9dAwU5WYjqLcqPpO52lZZqpz1Xs0zNbEXOf9DTyJQ=",
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -872,10 +888,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_10.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\sanphamnoibat1.webp",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_01.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+=======
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\sanphamnoibat1.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/sanphamnoibat1.webp",
       "AssetKind": "All",
@@ -933,6 +962,10 @@
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_01.jpg",
       "AssetKind": "All",
@@ -1138,10 +1171,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_11.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu1.webp",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+=======
+<<<<<<< HEAD
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+=======
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu1.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/TrangChu1.webp",
       "AssetKind": "All",
@@ -1199,6 +1245,10 @@
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3779,11 +3829,24 @@
       "OriginalItemSpec": "wwwroot\\uploads\\688015.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\anh.png",
+=======
+<<<<<<< HEAD
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-ba-lo.jpg",
+=======
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\anh.png",
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "RelativePath": "uploads/anh.png",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3803,6 +3866,10 @@
       "SourceType": "Discovered",
       "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "RelativePath": "uploads/ao-ba-lo.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -3817,6 +3884,14 @@
       "OriginalItemSpec": "wwwroot\\uploads\\ao-ba-lo.jpg"
     },
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-nike.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
@@ -3836,6 +3911,16 @@
       "OriginalItemSpec": "wwwroot\\uploads\\ao-nike.jpg"
     },
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
       "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-sieu-xayda.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",

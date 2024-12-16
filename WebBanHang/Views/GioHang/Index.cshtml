@@ -5,6 +5,14 @@
     <table class="table table-hover table-bordered">
         <thead class="bg-primary text-white">
             <tr>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                 <th class="text-center">Hình ảnh</th>
                 <th>Tên sản phẩm</th>
                 <th class="text-right">Giá</th>
@@ -12,6 +20,26 @@
                 <th class="text-center">Kích cỡ</th>
                 <th class="text-right">Tổng tiền</th>
                 <th class="text-center">Xóa</th>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+                <th scope="col" class="text-center">Hình ảnh</th>
+                <th scope="col">Tên sản phẩm</th>
+                <th scope="col" class="text-right">Giá</th>
+                <th scope="col" class="text-center">Số lượng</th>
+                <th scope="col" class="text-center">Kích cỡ</th>
+                <th scope="col" class="text-right">Tổng tiền</th>
+                <th scope="col" class="text-center">Xóa</th>
+<<<<<<< HEAD
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
             </tr>
         </thead>
         <tbody>
@@ -20,12 +48,34 @@
                 @foreach (var item in Model)
                 {
                     <tr>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                        <!-- Hình ảnh -->
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+                        <!-- Hình ảnh -->
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                         <td class="text-center align-middle">
                             <img src="@Url.Content("~/uploads/" + item.SanPham.HinhAnh)"
                                  alt="@item.SanPham.TenSanPham"
                                  class="img-fluid rounded"
                                  style="width: 100%; height: 200px; object-fit: cover;" />
                         </td>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                         <td class="align-middle">@item.SanPham.TenSanPham</td>
                         <td class="text-right align-middle">@item.SanPham.DonGia.ToString("N0") ₫</td>
                         <td class="text-center align-middle">@item.SoLuongTrongGio</td>
@@ -33,6 +83,32 @@
                         <td class="text-right align-middle">@item.TongTien.ToString("N0") ₫</td>
                         <td class="text-center align-middle">
                             <form action="/GioHang/XoaSanPham" method="POST">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+                        <!-- Tên sản phẩm -->
+                        <td class="align-middle">@item.SanPham.TenSanPham</td>
+                        <!-- Giá -->
+                        <td class="text-right align-middle">@item.SanPham.DonGia.ToString("N0") ₫</td>
+                        <!-- Số lượng -->
+                        <td class="text-center align-middle">@item.SoLuongTrongGio</td>
+                        <!-- Kích cỡ -->
+                        <td class="text-center align-middle">@item.KichCo</td>
+                        <!-- Tổng tiền -->
+                        <td class="text-right align-middle">@item.TongTien.ToString("N0") ₫</td>
+                        <!-- Xóa -->
+                        <td class="text-center align-middle">
+                            <form action="/GioHang/XoaSanPham" method="POST" onsubmit="return confirm('Bạn chắc chắn muốn xóa sản phẩm này khỏi giỏ hàng?');">
+<<<<<<< HEAD
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                                 <input type="hidden" name="SanPhamID" value="@item.SanPhamID" />
                                 <input type="hidden" name="TenDangNhap" value="@User.Identity.Name" />
                                 <button type="submit" class="btn btn-danger btn-sm">
@@ -43,7 +119,31 @@
                     </tr>
                 }
 
+<<<<<<< HEAD
                 <!-- Tổng cộng -->
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                <!-- Tổng cộng -->
+=======
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+                <!-- Hiển thị tổng số lượng sản phẩm -->
+                <tr class="bg-light">
+                    <td colspan="5" class="text-right font-weight-bold">Tổng số lượng:</td>
+                    <td colspan="2" class="text-right font-weight-bold">@Model.Sum(item => item.SoLuongTrongGio)</td>
+                </tr>
+
+                <!-- Hiển thị tổng tiền -->
+<<<<<<< HEAD
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+                <!-- Tổng cộng -->
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                 <tr class="bg-light">
                     <td colspan="5" class="text-right font-weight-bold">Tổng tiền:</td>
                     <td colspan="2" class="text-right font-weight-bold">@Model.Sum(item => item.TongTien).ToString("N0") ₫</td>
@@ -52,6 +152,14 @@
                 <!-- Nút thanh toán -->
                 <tr>
                     <td colspan="7" class="text-center py-4">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                         <form action="/DatHang/Index" method="POST">
                             @foreach (var item in Model)
                             {
@@ -62,6 +170,20 @@
                                 <input type="hidden" name="DonGias" value="@item.SanPham.DonGia" />
                             }
                             <button type="submit" class="btn btn-success btn-lg px-5">Đặt hàng</button>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+                        <form action="/ThanhToan" method="GET">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Thanh toán</button>
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+                        <form action="/ThanhToan" method="GET">
+                            <button type="submit" class="btn btn-success btn-lg px-5">Thanh toán</button>
+>>>>>>> 71b5da4b29821cdcf62ed5021b9245bc3f2a3f69
+=======
+>>>>>>> c0fb83d (tam xong user)
+>>>>>>> 84ef2e2a2e6766f5c3a7b16d45021bc12ce25033
                         </form>
                     </td>
                 </tr>

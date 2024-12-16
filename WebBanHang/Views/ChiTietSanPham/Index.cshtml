@@ -1,0 +1,160 @@
+﻿@model WebBanHang.Models.SanPham
+
+<!-- Open Content -->
+<section class="bg-light">
+    <div class="container pb-5">
+        <div class="row">
+            <!-- Image -->
+            <div class="col-lg-5 mt-5">
+                <div class="card mb-3">
+                    <img class="card-img img-fluid" src="~/uploads/@Model.HinhAnh" alt="@Model.TenSanPham" id="product-detail">
+                </div>
+            </div>
+            <!-- col end -->
+            <!-- Product Details -->
+            <div class="col-lg-7 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="h2">@Model.TenSanPham</h1>
+                        <p class="h3 py-2">@Model.DonGia.ToString("N0") ₫</p>
+                        <p class="py-2">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-secondary"></i>
+                            <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
+                        </p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6>Thương Hiệu:</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted"><strong>@Model.HangSanXuat?.TenHangSanXuat</strong></p>
+                            </li>
+                        </ul>
+
+                        <h6>Giới Thiệu:</h6>
+                        <p>@Model.MoTa</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6>Loại sản phẩm:</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted"><strong>@Model.LoaiSanPham?.TenLoai</strong></p>
+                            </li>
+                        </ul>
+
+                        <form id="add-to-cart-form" action="/GioHang/Them" method="POST">
+                            <input type="hidden" name="SanPhamID" value="@Model.ID">
+                            <input type="hidden" name="TenDangNhap" value="@User.Identity.Name">
+                            <input type="hidden" name="KichCo" id="product-size" value="">
+                            <input type="hidden" name="SoLuongTrongGio" id="total-quantity" value="1">
+                            <input type="hidden" name="NgayMua" id="purchase-date" value="">
+
+                            <div class="row">
+                                <!-- Kích cỡ -->
+                                <div class="col-auto">
+                                    <ul class="list-inline pb-3">
+                                        <li class="list-inline-item">Kích cỡ</li>
+                                        <li class="list-inline-item"><button type="button" class="btn btn-success btn-size" data-size="S">S</button></li>
+                                        <li class="list-inline-item"><button type="button" class="btn btn-success btn-size" data-size="M">M</button></li>
+                                        <li class="list-inline-item"><button type="button" class="btn btn-success btn-size" data-size="L">L</button></li>
+                                        <li class="list-inline-item"><button type="button" class="btn btn-success btn-size" data-size="XL">XL</button></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Số lượng -->
+                                <div class="col-auto">
+                                    <ul class="list-inline pb-3">
+                                        <li class="list-inline-item text-right">Số lượng</li>
+                                        <li class="list-inline-item"><button type="button" class="btn btn-success" id="btn-minus">-</button></li>
+                                        <li class="list-inline-item"><span class="badge bg-secondary" id="var-value">1</span></li>
+                                        <li class="list-inline-item"><button type="button" class="btn btn-success" id="btn-plus">+</button></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="row pb-3">
+                                <div class="col d-grid">
+                                    <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy" id="btn-buy">Đặt hàng</button>
+                                </div>
+                                <div class="col d-grid">
+                                    <button type="submit" class="btn btn-success btn-lg" name="submit" value="addtocart">Thêm vào giỏ hàng</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .btn-size.active {
+        background-color: gray !important;
+        color: white !important;
+        border-color: gray !important;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const sizeButtons = document.querySelectorAll('.btn-size');
+        const sizeInput = document.getElementById('product-size');
+        const quantityValue = document.getElementById('var-value');
+        const quantityInput = document.getElementById('total-quantity');
+        const purchaseDateInput = document.getElementById('purchase-date');
+
+        // Set today's date in the hidden field (formatted as yyyy-mm-dd)
+        const today = new Date();
+        const formattedDate = today.toISOString().split('T')[0];  // Get date in yyyy-mm-dd format
+        purchaseDateInput.value = formattedDate;
+
+        // Xử lý chọn kích cỡ
+        sizeButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                sizeButtons.forEach(btn => btn.classList.remove('active')); // Xóa trạng thái active
+                this.classList.add('active'); // Thêm trạng thái active vào nút được chọn
+                sizeInput.value = this.getAttribute('data-size'); // Cập nhật giá trị kích cỡ vào input
+            });
+        });
+
+        // Xử lý tăng/giảm số lượng
+        document.getElementById('btn-minus').addEventListener('click', function () {
+            let currentValue = parseInt(quantityValue.textContent, 10);
+            if (currentValue > 1) {
+                currentValue--;
+                quantityValue.textContent = currentValue;
+                quantityInput.value = currentValue;
+            }
+        });
+
+        document.getElementById('btn-plus').addEventListener('click', function () {
+            let currentValue = parseInt(quantityValue.textContent, 10);
+            currentValue++;
+            quantityValue.textContent = currentValue;
+            quantityInput.value = currentValue;
+        });
+
+        // Kiểm tra khi submit form, đảm bảo kích cỡ đã được chọn và hiển thị dữ liệu bằng alert
+        const form = document.getElementById('add-to-cart-form');
+        form.addEventListener('submit', function (event) {
+            if (!sizeInput.value) {
+                alert("Vui lòng chọn kích cỡ trước khi thêm vào giỏ hàng.");
+                event.preventDefault(); // Ngừng submit form nếu không chọn kích cỡ
+            } else {
+                // Hiển thị thông tin form qua alert
+                const formData = {
+                    SanPhamID: form.querySelector('[name="SanPhamID"]').value,
+                    TenDangNhap: form.querySelector('[name="TenDangNhap"]').value,
+                    KichCo: sizeInput.value,
+                    SoLuongTrongGio: quantityInput.value,
+                    NgayMua: purchaseDateInput.value
+                };
+            }
+        });
+    });
+</script>

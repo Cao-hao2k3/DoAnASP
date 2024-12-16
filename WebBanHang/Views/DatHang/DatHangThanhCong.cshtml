@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Đặt Hàng Thành Công";
+}
+
+<h1>Đặt hàng thành công!</h1>
+<p>Cảm ơn bạn đã đặt hàng. Bạn có thể tiếp tục mua sắm hoặc quay lại trang chủ.</p>
+
+<!-- Nút tiếp tục mua sắm -->
+<a href="@Url.Action("Index", "LoadSanPham")" class="btn btn-primary">Tiếp tục mua sắm</a>
+
+<!-- Nút quay lại trang chủ -->
+<a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Quay lại trang chủ</a>

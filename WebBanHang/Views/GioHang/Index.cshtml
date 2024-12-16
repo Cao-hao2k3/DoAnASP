@@ -1,0 +1,77 @@
+﻿@model List<WebBanHang.Models.GioHang>
+
+<div class="cart-table container mt-5">
+    <h3 class="text-center mb-4 text-primary">Giỏ hàng của bạn</h3>
+    <table class="table table-hover table-bordered">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th class="text-center">Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th class="text-right">Giá</th>
+                <th class="text-center">Số lượng</th>
+                <th class="text-center">Kích cỡ</th>
+                <th class="text-right">Tổng tiền</th>
+                <th class="text-center">Xóa</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center align-middle">
+                            <img src="@Url.Content("~/uploads/" + item.SanPham.HinhAnh)"
+                                 alt="@item.SanPham.TenSanPham"
+                                 class="img-fluid rounded"
+                                 style="width: 100%; height: 200px; object-fit: cover;" />
+                        </td>
+                        <td class="align-middle">@item.SanPham.TenSanPham</td>
+                        <td class="text-right align-middle">@item.SanPham.DonGia.ToString("N0") ₫</td>
+                        <td class="text-center align-middle">@item.SoLuongTrongGio</td>
+                        <td class="text-center align-middle">@item.KichCo</td>
+                        <td class="text-right align-middle">@item.TongTien.ToString("N0") ₫</td>
+                        <td class="text-center align-middle">
+                            <form action="/GioHang/XoaSanPham" method="POST">
+                                <input type="hidden" name="SanPhamID" value="@item.SanPhamID" />
+                                <input type="hidden" name="TenDangNhap" value="@User.Identity.Name" />
+                                <button type="submit" class="btn btn-danger btn-sm">
+                                    <i class="fa fa-trash"></i> Xóa
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+
+                <!-- Tổng cộng -->
+                <tr class="bg-light">
+                    <td colspan="5" class="text-right font-weight-bold">Tổng tiền:</td>
+                    <td colspan="2" class="text-right font-weight-bold">@Model.Sum(item => item.TongTien).ToString("N0") ₫</td>
+                </tr>
+
+                <!-- Nút thanh toán -->
+                <tr>
+                    <td colspan="7" class="text-center py-4">
+                        <form action="/DatHang/Index" method="POST">
+                            @foreach (var item in Model)
+                            {
+                                <input type="hidden" name="SanPhamIDs" value="@item.SanPhamID" />
+                                <input type="hidden" name="TenSanPhams" value="@item.SanPham.TenSanPham" />
+                                <input type="hidden" name="SoLuongs" value="@item.SoLuongTrongGio" />
+                                <input type="hidden" name="KichCos" value="@item.KichCo" />
+                                <input type="hidden" name="DonGias" value="@item.SanPham.DonGia" />
+                            }
+                            <button type="submit" class="btn btn-success btn-lg px-5">Đặt hàng</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center text-danger">Giỏ hàng của bạn đang trống.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

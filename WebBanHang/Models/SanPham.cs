@@ -62,5 +62,6 @@ namespace WebBanHang.Models
         public HangSanXuat? HangSanXuat { get; set; }
         public ICollection<DatHangChiTiet>? DatHang_ChiTiet { get; set; }
 
+        public ICollection<GioHang>? GioHang { get; set; }
     }
 }

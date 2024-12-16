@@ -17,195 +17,231 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebBanHang
 build_property.RootNamespace = WebBanHang
-build_property.ProjectDir = D:\HocTap\DoAnASP\WebBanHang\DoAnASP\WebBanHang\
+build_property.ProjectDir = D:\HocTap\DoAnASP\DoAnASP\WebBanHang\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = D:\HocTap\DoAnASP\WebBanHang\DoAnASP\WebBanHang
+build_property.MSBuildProjectDirectory = D:\HocTap\DoAnASP\DoAnASP\WebBanHang
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/DatHang/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0SGFuZ1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/DatHang/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0SGFuZ1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/DatHang/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0SGFuZ1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/DatHang/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0SGFuZ1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/DatHang/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/DatHang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGF0SGFuZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Create.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ1Nhblh1YXRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Delete.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ1Nhblh1YXRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Details.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ1Nhblh1YXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Edit.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ1Nhblh1YXRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/HangSanXuat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZ1Nhblh1YXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/Home/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/Home/Privacy.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Create.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVNhblBoYW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Delete.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVNhblBoYW1cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Details.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVNhblBoYW1cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Edit.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVNhblBoYW1cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/LoaiSanPham/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTG9haVNhblBoYW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Create.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Delete.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Details.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Edit.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/NguoiDung/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Create.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Delete.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Details.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Edit.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/SanPham/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2FuUGhhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/Shared/Error.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Create.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluaFRyYW5nXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Delete.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluaFRyYW5nXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Details.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluaFRyYW5nXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Edit.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluaFRyYW5nXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/TinhTrang/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGluaFRyYW5nXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Home/Forbidden.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/ChiTietSanPham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNhblBoYW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/DangKyTaiKhoan/DangKyThanhCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ0t5VGFpS2hvYW5cRGFuZ0t5VGhhbmhDb25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/DangKyTaiKhoan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ0t5VGFpS2hvYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/DatHang/DatHangThanhCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0SGFuZ1xEYXRIYW5nVGhhbmhDb25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/DatHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0SGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/GioHang/GioHangRong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xHaW9IYW5nUm9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/GioHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/GioiThieu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvaVRoaWV1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Home/Forbidden.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JiaWRkZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Home/Index.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Home/Login.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Home/Privacy.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Shared/Error.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/KetNoi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2V0Tm9pXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/LoadSanPham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9hZFNhblBoYW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/_ViewImports.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/ThongTinMuaHang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdUaW5NdWFIYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/ThongTinMuaHang/KhongCoDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdUaW5NdWFIYW5nXEtob25nQ29Eb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/ThongTinNguoiDung/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdUaW5OZ3VvaUR1bmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/_ViewStart.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Areas/Admin/Views/Shared/_Layout.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bs9xlazm2q
 
-[D:/HocTap/DoAnASP/WebBanHang/DoAnASP/WebBanHang/Views/Shared/_Layout.cshtml]
+[D:/HocTap/DoAnASP/DoAnASP/WebBanHang/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ojic8umssh

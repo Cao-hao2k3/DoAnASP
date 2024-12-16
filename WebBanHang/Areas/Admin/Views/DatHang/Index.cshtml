@@ -1,46 +1,53 @@
 ﻿@model IEnumerable<WebBanHang.Models.DatHang>
 
 @{
-    ViewData["Title"] = "Đặt hàng";
+    ViewData["Title"] = "Danh sách đơn đặt hàng";
 }
+
 <div class="card">
     <h5 class="card-header">@ViewData["Title"]</h5>
     <div class="card-body">
-        <p><a asp-action="Create" class="btn btn-primary"> Thêm mới</a></p>
         <table class="table table-sm table-hover table-striped table-bordered mb-0">
             <thead>
                 <tr>
                     <th>@Html.DisplayNameFor(model => model.ID)</th>
                     <th>@Html.DisplayNameFor(model => model.NguoiDungID)</th>
+                    <th>@Html.DisplayNameFor(model => model.TenKhachHang)</th>
+                    <th>@Html.DisplayNameFor(model => model.DiaChiEmail)</th>
                     <th>@Html.DisplayNameFor(model => model.DienThoaiGiaoHang)</th>
                     <th>@Html.DisplayNameFor(model => model.DiaChiGiaoHang)</th>
                     <th>@Html.DisplayNameFor(model => model.NgayDatHang)</th>
+                    <th>@Html.DisplayNameFor(model => model.PhuongThucThanhToan)</th>
                     <th>@Html.DisplayNameFor(model => model.TinhTrang.MoTa)</th>
-                    <th width="5%">Sửa</th>
-                    <th width="5%">Xóa</th>
+                    <th>Cập nhật trạng thái</th>
                 </tr>
             </thead>
             <tbody>
-                @{
-                    var stt = 1;
-                }
                 @foreach (var item in Model)
                 {
                     <tr>
-                        <td>@stt</td>
-                        <td>@Html.DisplayFor(modelItem => item.NguoiDung.HoVaTen)</td>
+                        <td>@item.ID</td>
+                        <td>@Html.DisplayFor(modelItem => item.NguoiDungID)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TenKhachHang)</td>
+                        <td>@Html.DisplayFor(modelItem => item.DiaChiEmail)</td>
                         <td>@Html.DisplayFor(modelItem => item.DienThoaiGiaoHang)</td>
                         <td>@Html.DisplayFor(modelItem => item.DiaChiGiaoHang)</td>
                         <td>@Html.DisplayFor(modelItem => item.NgayDatHang)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PhuongThucThanhToan)</td>
                         <td>@Html.DisplayFor(modelItem => item.TinhTrang.MoTa)</td>
-                        <td class="text-center">
-                            <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>
-                        </td>
-                        <td class="text-center">
-                            <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                        <td>
+                            <form asp-action="UpdateStatus" method="post">
+                                <input type="hidden" name="id" value="@item.ID" />
+                                <select name="status" class="form-select form-select-sm">
+                                    <option value="1">Giao Hàng Thất bại</option>
+                                    <option value="2">Đang xử lý</option>
+                                    <option value="3">Thành công</option>
+                                    <option value="4">Đang giao hàng</option>
+                                </select>
+                                <button type="submit" class="btn btn-sm btn-warning mt-1">Cập nhật</button>
+                            </form>
                         </td>
                     </tr>
-                    stt++;
                 }
             </tbody>
         </table>

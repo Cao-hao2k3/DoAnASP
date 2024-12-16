@@ -12,15 +12,15 @@ using WebBanHang.Models;
 namespace WebBanHang.Migrations
 {
     [DbContext(typeof(FashionShopDbContext))]
-    [Migration("20241119080413_FashionShopCSDL")]
-    partial class FashionShopCSDL
+    [Migration("20241215044401_KhoiTaoCSDL15")]
+    partial class KhoiTaoCSDL15
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "9.0.0")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -33,6 +33,10 @@ namespace WebBanHang.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
+                    b.Property<string>("DiaChiEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("DiaChiGiaoHang")
                         .IsRequired()
                         .HasMaxLength(255)
@@ -40,14 +44,21 @@ namespace WebBanHang.Migrations
 
                     b.Property<string>("DienThoaiGiaoHang")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<DateTime>("NgayDatHang")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("NguoiDungID")
                         .HasColumnType("int");
+
+                    b.Property<int>("PhuongThucThanhToan")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TenKhachHang")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TinhTrangID")
                         .HasColumnType("int");
@@ -58,7 +69,7 @@ namespace WebBanHang.Migrations
 
                     b.HasIndex("TinhTrangID");
 
-                    b.ToTable("DatHang");
+                    b.ToTable("DatHang", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.DatHangChiTiet", b =>
@@ -75,6 +86,10 @@ namespace WebBanHang.Migrations
                     b.Property<int>("DonGia")
                         .HasColumnType("int");
 
+                    b.Property<string>("KichCo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("SanPhamID")
                         .HasColumnType("int");
 
@@ -87,7 +102,41 @@ namespace WebBanHang.Migrations
 
                     b.HasIndex("SanPhamID");
 
-                    b.ToTable("DatHang_ChiTiet");
+                    b.ToTable("DatHang_ChiTiet", (string)null);
+                });
+
+            modelBuilder.Entity("WebBanHang.Models.GioHang", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
+
+                    b.Property<string>("KichCo")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<int>("SanPhamID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SoLuongTrongGio")
+                        .HasColumnType("int");
+
+                    b.Property<string>("TenDangNhap")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime>("ThoiGian")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("SanPhamID");
+
+                    b.ToTable("GioHang", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.HangSanXuat", b =>
@@ -105,7 +154,7 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("HangSanXuat");
+                    b.ToTable("HangSanXuat", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.LoaiSanPham", b =>
@@ -123,7 +172,7 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("LoaiSanPham");
+                    b.ToTable("LoaiSanPham", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.NguoiDung", b =>
@@ -139,8 +188,8 @@ namespace WebBanHang.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("DienThoai")
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -167,7 +216,7 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("NguoiDung");
+                    b.ToTable("NguoiDung", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.SanPham", b =>
@@ -189,6 +238,7 @@ namespace WebBanHang.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("KichCo")
+                        .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
@@ -212,7 +262,7 @@ namespace WebBanHang.Migrations
 
                     b.HasIndex("LoaiSanPhamID");
 
-                    b.ToTable("SanPham");
+                    b.ToTable("SanPham", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.TinhTrang", b =>
@@ -230,7 +280,7 @@ namespace WebBanHang.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("TinhTrang");
+                    b.ToTable("TinhTrang", (string)null);
                 });
 
             modelBuilder.Entity("WebBanHang.Models.DatHang", b =>
@@ -267,6 +317,17 @@ namespace WebBanHang.Migrations
                         .IsRequired();
 
                     b.Navigation("DatHang");
+
+                    b.Navigation("SanPham");
+                });
+
+            modelBuilder.Entity("WebBanHang.Models.GioHang", b =>
+                {
+                    b.HasOne("WebBanHang.Models.SanPham", "SanPham")
+                        .WithMany("GioHang")
+                        .HasForeignKey("SanPhamID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("SanPham");
                 });
@@ -313,6 +374,8 @@ namespace WebBanHang.Migrations
             modelBuilder.Entity("WebBanHang.Models.SanPham", b =>
                 {
                     b.Navigation("DatHang_ChiTiet");
+
+                    b.Navigation("GioHang");
                 });
 
             modelBuilder.Entity("WebBanHang.Models.TinhTrang", b =>

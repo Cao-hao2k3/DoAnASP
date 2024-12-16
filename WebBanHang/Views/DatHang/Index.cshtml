@@ -1,0 +1,149 @@
+﻿<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary">Xác nhận Đặt hàng</h2>
+
+    <form method="post" action="@Url.Action("PlaceOrder", "DatHang")">
+        <!-- Lựa chọn thông tin người dùng -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h4>Chọn thông tin người dùng</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="userInfoOption" id="defaultInfo" value="default" checked>
+                    <label class="form-check-label" for="defaultInfo">
+                        Sử dụng thông tin mặc định
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="userInfoOption" id="customInfo" value="custom">
+                    <label class="form-check-label" for="customInfo">
+                        Nhập thông tin khác
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thông tin người dùng mặc định -->
+        <div id="defaultInfoSection">
+            <p><strong>Họ và tên:</strong> @ViewBag.HoVaTen</p>
+            <p><strong>Email:</strong> @ViewBag.Email</p>
+            <p><strong>Số điện thoại:</strong> @ViewBag.DienThoai</p>
+            <p><strong>Địa chỉ:</strong> @ViewBag.DiaChi</p>
+            <input type="hidden" name="hoVaTen" value="@ViewBag.HoVaTen">
+            <input type="hidden" name="email" value="@ViewBag.Email">
+            <input type="hidden" name="dienThoai" value="@ViewBag.DienThoai">
+            <input type="hidden" name="diaChi" value="@ViewBag.DiaChi">
+        </div>
+
+        <!-- Thông tin người dùng nhập tay -->
+        <div id="customInfoSection" style="display: none;">
+            <div class="mb-3">
+                <label for="customName" class="form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="customName" name="HoVaTen">
+            </div>
+            <div class="mb-3">
+                <label for="customEmail" class="form-label">Email</label>
+                <input type="email" class="form-control" id="customEmail" name="Email">
+            </div>
+            <div class="mb-3">
+                <label for="customPhone" class="form-label">Số điện thoại</label>
+                <input type="text" class="form-control" id="customPhone" name="DienThoai">
+            </div>
+            <div class="mb-3">
+                <label for="customAddress" class="form-label">Địa chỉ</label>
+                <input type="text" class="form-control" id="customAddress" name="DiaChi">
+            </div>
+        </div>
+
+        <!-- Danh sách sản phẩm -->
+        <table class="table table-hover table-bordered">
+            <thead class="bg-primary text-white">
+                <tr>
+                    <th>ID</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Kích cỡ</th>
+                    <th>Đơn giá</th>
+                    <th>Tổng tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < ViewBag.DanhSachSanPham.Count; i++)
+                {
+                    var sp = ViewBag.DanhSachSanPham[i];
+                    <tr>
+                        <td>
+                            @sp.ID
+                            <input type="hidden" name="DanhSachSanPham[@i].ID" value="@sp.ID">
+                        </td>
+                        <td>@sp.TenSanPham</td>
+                        <td>
+                            @sp.SoLuong
+                            <input type="hidden" name="DanhSachSanPham[@i].SoLuong" value="@sp.SoLuong">
+                        </td>
+                        <td>
+                            @sp.KichCo
+                            <input type="hidden" name="DanhSachSanPham[@i].KichCo" value="@sp.KichCo">
+                        </td>
+                        <td>
+                            @sp.DonGia.ToString("N0") ₫
+                            <input type="hidden" name="DanhSachSanPham[@i].DonGia" value="@sp.DonGia">
+                        </td>
+                        <td>@sp.TongTien.ToString("N0") ₫</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <!-- Lựa chọn phương thức thanh toán -->
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h4>Chọn phương thức thanh toán</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="paymentCOD" value="1" checked>
+                    <label class="form-check-label" for="paymentCOD">
+                        Thanh toán khi nhận hàng (COD)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="paymentCard" value="2">
+                    <label class="form-check-label" for="paymentCard">
+                        Thanh toán qua thẻ
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="paymentMethod" id="paymentOnline" value="3">
+                    <label class="form-check-label" for="paymentOnline">
+                        Thanh toán trực tuyến
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nút đặt hàng -->   
+        <div class="text-center">
+            <button type="submit" class="btn btn-success">Đặt hàng</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const defaultInfoSection = document.getElementById('defaultInfoSection');
+        const customInfoSection = document.getElementById('customInfoSection');
+        const defaultInfoRadio = document.getElementById('defaultInfo');
+        const customInfoRadio = document.getElementById('customInfo');
+
+        defaultInfoRadio.addEventListener('change', function () {
+            if (this.checked) {
+                defaultInfoSection.style.display = 'block';
+                customInfoSection.style.display = 'none';
+            }
+        });
+
+        customInfoRadio.addEventListener('change', function () {
+            if (this.checked) {
+                defaultInfoSection.style.display = 'none';
+                customInfoSection.style.display = 'block';
+            }
+        });
+    });
+</script>

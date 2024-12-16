@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nrzbgLsVD8aDFplLpb5qIKUif4Fx+CHLepANWQi3CJ0=",
+  "Hash": "Cd9dAwU5WYjqLcqPpO52lZZqpz1Xs0zNbEXOf9DTyJQ=",
   "Source": "WebBanHang",
   "BasePath": "_content/WebBanHang",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "WebBanHang\\wwwroot",
       "Source": "WebBanHang",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "Pattern": "**"
     }
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.11\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebBanHang.styles.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebBanHang.styles.css",
       "SourceId": "WebBanHang",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "WebBanHang.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebBanHang.styles.css"
+      "OriginalItemSpec": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\bundle\\WebBanHang.styles.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css",
       "SourceId": "WebBanHang",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "WebBanHang.bundle.scp.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css"
+      "OriginalItemSpec": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebBanHang.bundle.scp.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\about.html",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\about.html",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "about.html",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\about.html"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\bootstrap.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\custom.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\custom.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/custom.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\custom.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\fontawesome.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\fontawesome.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/fontawesome.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\fontawesome.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\fontawesome.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\fontawesome.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\slick.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\slick.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/slick.min.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\slick.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\slick-theme.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\slick-theme.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/slick-theme.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\slick-theme.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\slick-theme.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\slick-theme.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/slick-theme.min.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\slick-theme.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\templatemo.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\templatemo.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/templatemo.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\templatemo.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\templatemo.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\css\\templatemo.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/css/templatemo.min.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\templatemo.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\about-hero.svg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\about-hero.svg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/about-hero.svg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\about-hero.svg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\ajax-loader.gif",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\ajax-loader.gif",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/ajax-loader.gif",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ajax-loader.gif"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\anhquanao.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\anhquanao.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/anhquanao.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\anhquanao.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\apple-icon.png",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\apple-icon.png",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/apple-icon.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\apple-icon.png"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner_img_01.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner_img_01.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/banner_img_01.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner_img_01.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner_img_02.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner_img_02.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/banner_img_02.jpg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner_img_02.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner_img_03.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner_img_03.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/banner_img_03.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner_img_03.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner1.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner1.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/banner1.jpg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner1.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner2.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner2.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/banner2.jpg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner2.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner3.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\banner3.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/banner3.jpg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner3.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_01.png",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_01.png",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/brand_01.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\brand_01.png"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_02.png",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_02.png",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/brand_02.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\brand_02.png"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_03.png",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_03.png",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/brand_03.png",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\brand_03.png"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_04.png",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\brand_04.png",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/brand_04.png",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\brand_04.png"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\category_img_01.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\category_img_01.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/category_img_01.jpg",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\category_img_01.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\category_img_02.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\category_img_02.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/category_img_02.jpg",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\category_img_02.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\category_img_03.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\category_img_03.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/category_img_03.jpg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\category_img_03.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\favicon.ico",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\favicon.ico",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/favicon.ico",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\favicon.ico"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\feature_prod_01.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\feature_prod_01.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/feature_prod_01.jpg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\feature_prod_01.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\feature_prod_02.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\feature_prod_02.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/feature_prod_02.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\feature_prod_02.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\feature_prod_03.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\feature_prod_03.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/feature_prod_03.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\feature_prod_03.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_01.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_01.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_01.jpg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_01.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_02.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_02.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_02.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_02.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_03.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_03.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_03.jpg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_03.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_04.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_04.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_04.jpg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_04.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_05.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_05.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_05.jpg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_05.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_06.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_06.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_06.jpg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_06.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_07.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_07.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_07.jpg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_07.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_08.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_08.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_08.jpg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_08.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_09.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_09.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_09.jpg",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_09.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_10.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\product_single_10.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/product_single_10.jpg",
       "AssetKind": "All",
@@ -872,10 +872,67 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\product_single_10.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_01.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\sanphamnoibat1.webp",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/sanphamnoibat1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\sanphamnoibat1.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\SanPhamNoiBat2.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/SanPhamNoiBat2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\SanPhamNoiBat2.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\SanPhamNoiBat3.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/SanPhamNoiBat3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\SanPhamNoiBat3.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_01.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_01.jpg",
       "AssetKind": "All",
@@ -891,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_01.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_02.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_02.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_02.jpg",
       "AssetKind": "All",
@@ -910,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_02.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_03.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_03.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_03.jpg",
       "AssetKind": "All",
@@ -929,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_03.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_04.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_04.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_04.jpg",
       "AssetKind": "All",
@@ -948,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_04.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_05.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_05.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_05.jpg",
       "AssetKind": "All",
@@ -967,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_05.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_06.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_06.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_06.jpg",
       "AssetKind": "All",
@@ -986,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_06.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_07.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_07.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_07.jpg",
       "AssetKind": "All",
@@ -1005,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_07.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_08.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_08.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_08.jpg",
       "AssetKind": "All",
@@ -1024,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_08.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_09.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_09.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_09.jpg",
       "AssetKind": "All",
@@ -1043,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_09.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_10.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_10.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_10.jpg",
       "AssetKind": "All",
@@ -1062,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_10.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_11.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\shop_11.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/img/shop_11.jpg",
       "AssetKind": "All",
@@ -1081,10 +1138,67 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shop_11.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu1.webp",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/TrangChu1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\TrangChu1.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu2.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/TrangChu2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\TrangChu2.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\img\\TrangChu3.webp",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "assets/img/TrangChu3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\TrangChu3.webp"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1100,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\custom.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\custom.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/custom.js",
       "AssetKind": "All",
@@ -1119,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\custom.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\jquery-1.11.0.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\jquery-1.11.0.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/jquery-1.11.0.min.js",
       "AssetKind": "All",
@@ -1138,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-1.11.0.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\jquery-migrate-1.2.1.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\jquery-migrate-1.2.1.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/jquery-migrate-1.2.1.min.js",
       "AssetKind": "All",
@@ -1157,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery-migrate-1.2.1.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\slick.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\slick.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/slick.min.js",
       "AssetKind": "All",
@@ -1176,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\slick.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\templatemo.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\templatemo.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/templatemo.js",
       "AssetKind": "All",
@@ -1195,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\templatemo.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\templatemo.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\js\\templatemo.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/js/templatemo.min.js",
       "AssetKind": "All",
@@ -1214,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\templatemo.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -1233,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -1252,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1271,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -1290,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1309,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -1328,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -1347,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1366,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -1385,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1404,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -1423,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -1442,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1461,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -1480,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1499,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.eot",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.eot",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/slick.eot",
       "AssetKind": "All",
@@ -1518,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\slick.eot"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.svg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.svg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/slick.svg",
       "AssetKind": "All",
@@ -1537,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\slick.svg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.ttf",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.ttf",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/slick.ttf",
       "AssetKind": "All",
@@ -1556,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\slick.ttf"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.woff",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\assets\\webfonts\\slick.woff",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "assets/webfonts/slick.woff",
       "AssetKind": "All",
@@ -1575,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\webfonts\\slick.woff"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\contact.html",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\contact.html",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "contact.html",
       "AssetKind": "All",
@@ -1594,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\contact.html"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\css\\site.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\css\\site.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1613,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\favicon.ico",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\favicon.ico",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1632,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\index.html",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\index.html",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -1651,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\js\\site.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\js\\site.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1670,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -1689,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1708,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1727,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1746,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1765,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1784,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1803,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1822,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1841,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1860,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1879,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1898,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1917,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1936,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1955,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1974,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1993,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2012,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2031,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2050,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2069,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2088,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2107,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2126,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2145,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2164,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2183,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2202,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2221,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2240,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2259,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2278,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2297,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2316,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2335,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2354,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2373,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2392,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2411,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2430,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2449,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2468,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2487,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2506,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2525,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2544,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2563,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2582,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2601,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2620,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2639,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2658,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2677,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2696,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2715,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2734,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2753,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2772,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2791,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2810,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2829,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2848,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2867,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2886,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2905,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2924,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2943,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2962,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2981,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3000,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3019,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3038,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3057,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3076,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3095,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3114,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3133,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3152,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3171,10 +3285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3190,10 +3304,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3209,10 +3323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3228,10 +3342,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3247,10 +3361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3266,10 +3380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -3285,10 +3399,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3304,10 +3418,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3323,10 +3437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3342,10 +3456,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3361,10 +3475,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3380,10 +3494,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3399,10 +3513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3418,10 +3532,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3437,10 +3551,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3456,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3475,10 +3589,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3494,10 +3608,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3513,10 +3627,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3532,10 +3646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3551,10 +3665,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3570,10 +3684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3589,10 +3703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\shop.html",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\shop.html",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "shop.html",
       "AssetKind": "All",
@@ -3608,10 +3722,10 @@
       "OriginalItemSpec": "wwwroot\\shop.html"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\shop-single.html",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\shop-single.html",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "shop-single.html",
       "AssetKind": "All",
@@ -3627,10 +3741,29 @@
       "OriginalItemSpec": "wwwroot\\shop-single.html"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\688015.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\32zx.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "uploads/32zx.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\32zx.jpg"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\688015.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "uploads/688015.jpg",
       "AssetKind": "All",
@@ -3646,10 +3779,86 @@
       "OriginalItemSpec": "wwwroot\\uploads\\688015.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\miku.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\anh.png",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "uploads/anh.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\anh.png"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-ba-lo.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "uploads/ao-ba-lo.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ao-ba-lo.jpg"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-nike.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "uploads/ao-nike.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ao-nike.jpg"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\ao-sieu-xayda.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "BasePath": "_content/WebBanHang",
+      "RelativePath": "uploads/ao-sieu-xayda.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ao-sieu-xayda.jpg"
+    },
+    {
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\miku.jpg",
+      "SourceId": "WebBanHang",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "uploads/miku.jpg",
       "AssetKind": "All",
@@ -3665,10 +3874,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\miku.jpg"
     },
     {
-      "Identity": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\zxc.jpg",
+      "Identity": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\uploads\\zxc.jpg",
       "SourceId": "WebBanHang",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\HocTap\\DoAnASP\\WebBanHang\\DoAnASP\\WebBanHang\\wwwroot\\",
+      "ContentRoot": "D:\\HocTap\\DoAnASP\\DoAnASP\\WebBanHang\\wwwroot\\",
       "BasePath": "_content/WebBanHang",
       "RelativePath": "uploads/zxc.jpg",
       "AssetKind": "All",

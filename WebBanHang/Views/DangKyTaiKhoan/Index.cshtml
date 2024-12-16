@@ -1,0 +1,67 @@
+﻿@model WebBanHang.Models.NguoiDung
+
+@{
+    ViewData["Title"] = "Đăng Ký Tài Khoản";
+}
+
+<div class="container d-flex justify-content-center align-items-center ">
+    <div class="card shadow-lg w-100" style="max-width: 400px; padding: 10px;">
+        <div class="card-header text-center bg-white border-0">
+            <h3 class="fw-bold">Đăng Ký</h3>
+            <p class="text-muted">Tạo tài khoản mới và khám phá ngay!</p>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="Index">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="HoVaTen" class="form-label">Họ và Tên</label>
+                    <input asp-for="HoVaTen" class="form-control" placeholder="Nhập họ và tên" style="width: 100%;" />
+                    <span asp-validation-for="HoVaTen" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="Email" class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="Nhập email" style="width: 100%;" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="DienThoai" class="form-label">Điện Thoại</label>
+                    <input asp-for="DienThoai" class="form-control" placeholder="Nhập số điện thoại" style="width: 100%;" />
+                    <span asp-validation-for="DienThoai" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="DiaChi" class="form-label">Địa Chỉ</label>
+                    <input asp-for="DiaChi" class="form-control" placeholder="Nhập địa chỉ" style="width: 100%;" />
+                    <span asp-validation-for="DiaChi" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="TenDangNhap" class="form-label">Tên Đăng Nhập</label>
+                    <input asp-for="TenDangNhap" class="form-control" placeholder="Nhập tên đăng nhập" style="width: 100%;" />
+                    <span asp-validation-for="TenDangNhap" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="MatKhau" class="form-label">Mật Khẩu</label>
+                    <input asp-for="MatKhau" type="password" class="form-control" placeholder="Nhập mật khẩu" style="width: 100%;" />
+                    <span asp-validation-for="MatKhau" class="text-danger"></span>
+                </div>
+
+                <div class="form-group mb-3">
+                    <label asp-for="XacNhanMatKhau" class="form-label">Xác Nhận Mật Khẩu</label>
+                    <input asp-for="XacNhanMatKhau" type="password" class="form-control" placeholder="Nhập lại mật khẩu" style="width: 100%;" />
+                    <span asp-validation-for="XacNhanMatKhau" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 mb-3">Đăng Ký</button>
+                <div class="text-center">
+                    <span>Đã có tài khoản?</span>
+                    <a href="/DangNhap" class="text-decoration-none">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
